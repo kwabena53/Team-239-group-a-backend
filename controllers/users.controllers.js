@@ -1,5 +1,6 @@
 // External Dependancies
 const boom = require('boom')
+const crypto = require('crypto')
 const PermissionMiddleware = require('../shared/middlewares/auth.permission.middleware');
 const ValidationMiddleware = require('../shared/middlewares/auth.validation.middleware');
 const config = require('../shared/config/env.config');
